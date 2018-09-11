@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy\Proxy.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResp", "ChainOfResponsibility\ChainOfResp\ChainOfResp.csproj", "{CC99A59F-228D-4309-8700-0839D1A49FC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command\Command.csproj", "{0D534FF1-2517-452D-A82C-B7440C946A03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command\Command.csproj", "{0D534FF1-2517-452D-A82C-B7440C946A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Interpreter\Interpreter\Interpreter.csproj", "{7012C09B-089A-47EB-B97B-E202AE420C67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{0D534FF1-2517-452D-A82C-B7440C946A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D534FF1-2517-452D-A82C-B7440C946A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D534FF1-2517-452D-A82C-B7440C946A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7012C09B-089A-47EB-B97B-E202AE420C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7012C09B-089A-47EB-B97B-E202AE420C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7012C09B-089A-47EB-B97B-E202AE420C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7012C09B-089A-47EB-B97B-E202AE420C67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
